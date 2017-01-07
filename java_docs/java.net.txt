@@ -1,12 +1,12 @@
-Interface
+ï»¿Interface
 
 public interface ContentHandlerFactory
-ÀÌ ÀÎÅÍÆäÀÌ½º´Â ÄÜÅÙÃ÷ ÇÚµé·¯¸¦ À§ÇÑ °øÀåÀ» Á¤ÀÇÇÑ´Ù. => ContentHandler Å¬·¡½º°¡ ÀúÀåµÈ °æ·Î¸¦ Á¤ÀÇÇÑ´Ù.
-ÀÌ ÀÎÅÍÆäÀÌ½º¸¦ »ç¿ëÇÏ·Á¸é MIME Å¸ÀÔÀ» ContentHandler °´Ã¼¿¡ ¸ÅÇÎÇØ¾ßÇÑ´Ù.
-ÀÌ ÀÎÅÍÆäÀÌ½º´Â URLStreamHandler Å¬·¡½º¿¡¼­ MIMEÅ¸ÀÔÀÇ ContentHandler¸¦ ¸¸µé±â À§ÇØ »ç¿ëµÈ´Ù.
+ì´ ì¸í„°í˜ì´ìŠ¤ëŠ” ì½˜í…ì¸  í•¸ë“¤ëŸ¬ë¥¼ ìœ„í•œ ê³µì¥ì„ ì •ì˜í•œë‹¤. => ContentHandler í´ë˜ìŠ¤ê°€ ì €ì¥ëœ ê²½ë¡œë¥¼ ì •ì˜í•œë‹¤.
+ì´ ì¸í„°í˜ì´ìŠ¤ë¥¼ ì‚¬ìš©í•˜ë ¤ë©´ MIME íƒ€ì…ì„ ContentHandler ê°ì²´ì— ë§¤í•‘í•´ì•¼í•œë‹¤.
+ì´ ì¸í„°í˜ì´ìŠ¤ëŠ” URLStreamHandler í´ë˜ìŠ¤ì—ì„œ MIMEíƒ€ì…ì˜ ContentHandlerë¥¼ ë§Œë“¤ê¸° ìœ„í•´ ì‚¬ìš©ëœë‹¤.
 
 - ContentHandler createContentHandler(String mimetype)
-»õ·Î¿î ContentHandler¸¦ ¸¸µç´Ù. URLStreamHandler¿¡¼­ ¿ÀºêÁ§Æ®¸¦ ÀĞ¾î¿À±â À§ÇØ
-ÆÄ¶ó¸ÅÅÍ: mimetype - content handler °¡ ¿øÇÏ´Â MIME Çü½Ä
-¸®ÅÏ°ª: ContentHandler
+ìƒˆë¡œìš´ ContentHandlerë¥¼ ë§Œë“ ë‹¤. URLStreamHandlerì—ì„œ ì˜¤ë¸Œì íŠ¸ë¥¼ ì½ì–´ì˜¤ê¸° ìœ„í•´
+íŒŒë¼ë§¤í„°: mimetype - content handler ê°€ ì›í•˜ëŠ” MIME í˜•ì‹
+ë¦¬í„´ê°’: ContentHandler
 
